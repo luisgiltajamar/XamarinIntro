@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:DemoCanalIntroXamarinForms" 
+             x:Class="DemoCanalIntroXamarinForms.DemoCanalIntroXamarinFormsPage">
+    <StackLayout Margin="0,40,0,0">
+        <Label x:Name="lbResultado" Text="Has pulsado 0 veces" XAlign="Center"/>
+        <Button Text="Pulsame..." Clicked="Handle_Clicked"/>
+    </StackLayout>
+</ContentPage>
